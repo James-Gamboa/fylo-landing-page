@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+
+@layer base {
+  body {
+    @apply font-openSans;
+  }
+
+  p {
+    @apply font-openSans;
+  }
+
+  a {
+    @apply font-openSans;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply w-full  py-3 text-center bg-brightBlue text-white rounded-md md:mt-0 hover:bg-[#6C9BFF];
+  }
+}
